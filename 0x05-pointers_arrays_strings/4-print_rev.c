@@ -19,7 +19,7 @@ void print_rev(char *s)
 
 	for (c -= 1; c >= 0; c--)
 	{
-	_putcher(s[c]);
+	_putchar(s[c]);
 	}
-	_putcher('\n');
+	_putchar('\n');
 }
