@@ -19,7 +19,7 @@ int main(void)
 	while (sum < 2772)
 
 	{
-		password[index] = 33 + rand() & 94;
+		password[index] = 33 + rand() % 94;
 		sum += password[index++];
 	}
 
@@ -40,7 +40,7 @@ int main(void)
 			if (password[index] >= (33 + diff_half1))
 
 			{
-				password[index] -= diff_half1
+				password[index] -= diff_half1;
 				
 				break;
 			}
